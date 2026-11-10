@@ -25,16 +25,6 @@ Because this is a static site, you can open any HTML file directly in a browser.
 
 For example:
 
-```bash
-cd "C:\Users\inese\Desktop\html"
-python -m http.server 8000
-```
-
-Then open:
-
-```text
-http://localhost:8000/start page.html
-```
 You can also use VS Code's Live Server extension for quick local preview.
 
 ## Notes
