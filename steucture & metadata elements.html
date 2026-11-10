@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+    <title>steucture & metadata elements</title>
+    <style>
+      body {
+        background-color: #008080;
+      }
+
+      .header-container {
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .header-container h1 {
+        margin: 0;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        max-width: 360px;
+        width: auto;
+        margin: 0;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+        background-color: #25ad45; /* green default */
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 0 #1e6f2f;
+        transition:
+          transform 0.16s ease,
+          box-shadow 0.16s ease,
+          background-color 0.12s ease;
+      }
+      .button:hover {
+        background-color: #1e8b2f; /* darker green on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 #165a22;
+      }
+      .button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 0 #14561a;
+      }
+
+      .button:focus {
+        outline: 3px solid rgba(37, 173, 69, 0.18);
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <a class="button" href="html code.html">back</a>
+      <h1><u>steucture & metadata elements</u></h1>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <ul style="color: #ffc000">
+      <h2><li>!doctype html</li></h2>
+
+      <h3><p>declares the docment type and html version.</p></h3>
+
+      <h2><li>html</li></h2>
+
+      <h3><p>act as the root element for the entire web page.</p></h3>
+
+      <h2><li>head <?li></li></h2>
+
+      <h3>
+        <p>
+          housees metadata,page title, and linked external scripts or
+          stylesheets.
+        </p>
+      </h3>
+
+      <h2><li>title</li></h2>
+
+      <h3>
+        <p>establishes the website title displayed in the browser tab.</p>
+      </h3>
+
+      <h2><li>meta</li></h2>
+
+      <h3>
+        <p>
+          implements metadata like page character sets, veiwport scales, and
+          descriptions.
+        </p>
+      </h3>
+
+      <h2><li>link</li></h2>
+
+      <h3>
+        <p>connects external asset like css filles nto the the document.</p>
+      </h3>
+
+      <h2><li>style</li></h2>
+
+      <h3><p>contains internal css styling specific to the webpage.</p></h3>
+
+      <h2><li>body</li></h2>
+
+      <h3><p>encloses all visble structral layout and media element.</p></h3>
+
+      <h2><li>base</li></h2>
+
+      <h3><p>specifies the b ase url for all relative links.</p></h3>
+    </ul>
+  </body>
+</html>

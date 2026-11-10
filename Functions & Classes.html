@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Functions & Classes</title>
+    <style>
+      body {
+        background-color: aqua;
+      }
+      .header-container {
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .header-container h1 {
+        margin: 0;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        max-width: 360px;
+        width: auto;
+        margin: 0;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+        background-color: #25ad45;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 0 #1e6f2f;
+        transition:
+          transform 0.16s ease,
+          box-shadow 0.16s ease,
+          background-color 0.12s ease;
+      }
+      .button:hover {
+        background-color: #1e8b2f; /* darker green on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 #165a22;
+      }
+      .button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 0 #14561a;
+      }
+
+      .button:focus {
+        outline: 3px solid rgba(37, 173, 69, 0.18);
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-container">
+      <a class="button" href="pythoncode.html">back</a>
+      <h1>Functions & Classes</h1>
+    </div>
+
+    <ul>
+      <br />
+      <h2>def</h2>
+      <h3>Used to define a function in Python</h3>
+
+      <h2>return</h2>
+      <h3>Exits a function and optionally passes back a specified value.</h3>
+
+      <h2>lambda</h2>
+      <h3>Used to create short, anonymous (nameless) functions inline.</h3>
+
+      <h2>class</h2>
+      <h3>Used to define a class in Python</h3>
+
+      <h2>yield</h2>
+      <h3>Pauses a function and returns a generator value to the caller.</h3>
+
+      <h2>Structural & Variable Handling</h2>
+      <h3>
+        symbolic names that reference objects or values stored in your
+        computer's memory
+      </h3>
+
+      <h2>del</h2>
+      <h3>Deletes references to objects, variables, or items inside lists.</h3>
+
+      <h2>global</h2>
+      <h3>
+        Used to declare a variable as global, allowing it to be accessed and
+        modified from within a function.
+      </h3>
+
+      <h2>nonlocal</h2>
+      <h3>
+        Used to declare a variable as nonlocal, allowing it to be accessed and
+        modified from within a nested function.
+      </h3>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hyperlinks & Content Embedding</title>
+
+    <style>
+      body {
+        background-color: #008080;
+      }
+
+      .header-container {
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .header-container h1 {
+        margin: 0;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        max-width: 360px;
+        width: auto;
+        margin: 0;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+        background-color: #25ad45; /* green default */
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 0 #1e6f2f;
+        transition:
+          transform 0.16s ease,
+          box-shadow 0.16s ease,
+          background-color 0.12s ease;
+      }
+      .button:hover {
+        background-color: #1e8b2f; /* darker green on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 #165a22;
+      }
+      .button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 0 #14561a;
+      }
+
+      .button:focus {
+        outline: 3px solid rgba(37, 173, 69, 0.18);
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <a class="button" href="html code.html">back</a>
+      <h1>Hyperlinks & Content Embedding</h1>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <ul style="color: #ffc000">
+      <h2><li>a</li></h2>
+
+      <h3><p>Sets up hyperlinks using target URL properties.</p></h3>
+
+      <h2><li>img</li></h2>
+
+      <h3><p>Places external graphic files inside layout zones.</p></h3>
+
+      <h2><li>iframe</li></h2>
+
+      <h3><p>Embeds separate webpage frames within current documents.</p></h3>
+
+      <h2><li>embed</li></h2>
+
+      <h3><p>Generates execution wrappers for outside plugin platforms</p></h3>
+
+      <h2><li>object</li></h2>
+
+      <h3>
+        <p>Houses multifaceted internal/external interactive item entities.</p>
+      </h3>
+
+      <h2><li>picture</li></h2>
+
+      <h3><p>Offers resource flexibility for dynamic image generation.</p></h3>
+
+      <h2><li>source</li></h2>
+
+      <h3><p>Lists alternative media assets for video or audio engines.</p></h3>
+
+      <h2><li>video</li></h2>
+
+      <h3><p>Embeds playback modules for local or streamable video.</p></h3>
+
+      <h2><li>audio</li></h2>
+
+      <h3><p>Embeds playback modules for local or streamable audio.</p></h3>
+
+      <h2><li>track</li></h2>
+
+      <h3><p>Connects timed text caption resources to media modules.</p></h3>
+
+      <h2><li>map</li></h2>
+
+      <h3><p>Generates clickable spatial image coordinates maps.</p></h3>
+
+      <h2><li>area</li></h2>
+
+      <h3><p>Configures interactive coordinates inside maps.</p></h3>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>code</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Reset default browser margins */
+      body {
+        margin: 0;
+        background: linear-gradient(
+          310deg,
+          #50e8f4 0%,
+          #8de5f7 35%,
+          #c8f6fa 70%,
+          #001619 100%
+        );
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Arial, sans-serif;
+      }
+
+      /* 1. Style the side navigation bar */
+      .sidenav {
+        height: 100%; /* Full-height */
+        width: 250px; /* Set the width of the sidebar */
+        position: fixed; /* Fixed Sidebar: stays in place on scroll */
+        z-index: 1; /* Stay on top of other elements */
+        top: 0; /* Stay at the top */
+        left: 0; /* Stay on the left */
+        background: linear-gradient(
+          180deg,
+          #00454f 0%,
+          #003d47 50%,
+          #001f2e 100%
+        );
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 20px;
+      }
+
+      /* 2. Style the navigation links inside the sidebar */
+      .sidenav a,
+      .custom-button {
+        padding: 15px 25px;
+        text-decoration: none; /* Remove underlines */
+        font-size: 18px;
+        color: #ffffff; /* Muted gray text color */
+        display: block; /* Make links stack vertically */
+        transition:
+          background-color 0.25s ease,
+          color 0.25s ease,
+          transform 0.25s ease,
+          box-shadow 0.25s ease;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+        background-color: #00695c; /* Darker teal on hover */
+        transform: translateY(-2px);
+      }
+
+      /* Ensure custom-button links inside the sidebar keep their own colors */
+      .sidenav a.custom-button {
+        color: #ffffff;
+        background-color: #00897b; /* Teal */
+        padding: 12px 24px;
+        border-radius: 8px;
+        box-shadow: 0 4px 0 #00695c;
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .sidenav a.custom-button:hover {
+        background-color: #00bcd4; /* Light cyan on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 #0097a7;
+      }
+
+      /* 4. Style the main content area */
+      .main-content {
+        margin-left: 250px; /* Same as the width of the sidebar */
+        padding: 20px;
+      }
+
+      .main-content h2 {
+        color: #ffffff;
+      }
+
+      .custom-button {
+        display: block;
+        width: calc(100% - 50px);
+        margin: 10px 25px;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+        background-color: #00897b; /* Teal default */
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 0 #00695c;
+        transition:
+          transform 0.15s ease,
+          box-shadow 0.15s ease,
+          background-color 0.15s ease;
+      }
+
+      .custom-button:hover {
+        background-color: #00bcd4; /* Light cyan on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 #0097a7;
+      }
+
+      .custom-button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 0 #8b1a1a;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="sidenav">
+      <a href="dashboard personal.html" class="custom-button">Dashboard</a>
+      <a href="services.html" class="custom-button">Services</a>
+      <a href="clients.html" class="custom-button">Clients</a>
+      <a href="contact.html" class="custom-button">Contact</a>
+    </nav>
+    <div class="main-content">
+      <h2>html code note</h2>
+      <hr style="text-align: center; border: 2px solid #f5f2f2" />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <img src="world.jpg" alt="world" style="display: block; margin: 0 auto" />
+    </div>
+  </body>
+</html>

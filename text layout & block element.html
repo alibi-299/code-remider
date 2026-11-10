@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <title>text layout & block element</title>
+    <style>
+      body {
+        background-color: #008080;
+      }
+
+      .header-container {
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .header-container h1 {
+        margin: 0;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        max-width: 360px;
+        width: auto;
+        margin: 0;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+        background-color: #25ad45; /* green default */
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 0 #1e6f2f;
+        transition:
+          transform 0.16s ease,
+          box-shadow 0.16s ease,
+          background-color 0.12s ease;
+      }
+      .button:hover {
+        background-color: #1e8b2f; /* darker green on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 #165a22;
+      }
+      .button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 0 #14561a;
+      }
+
+      .button:focus {
+        outline: 3px solid rgba(37, 173, 69, 0.18);
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <a class="button" href="html code.html">back</a>
+      <h1>text layout & block element</h1>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <ul style="color: #ffc000">
+      <h2><li>p</li></h2>
+
+      <h3><p>Organizes running text into paragraphs.</p></h3>
+
+      <h2><li>div</li></h2>
+
+      <h3>
+        <p>
+          Acts as a generic block-level element container used for structural
+          layout layout manipulation.
+        </p>
+      </h3>
+
+      <h2><li>span</li></h2>
+
+      <h3>
+        <p>
+          Functions as a generic inline container used to style small text
+          snippets.
+        </p>
+      </h3>
+
+      <h2><li>br</li></h2>
+
+      <h3>
+        <p>Executes an instantaneous single-line break within layout bodies.</p>
+      </h3>
+
+      <h2><li>hr</li></h2>
+
+      <h3>
+        <p>
+          Renders a thematic visual partition line separating content fields.
+        </p>
+      </h3>
+
+      <h2><li>pre</li></h2>
+
+      <h3>
+        <p>
+          Handles layout-sensitive preformatted content by maintaining code
+          blocks, spaces, and indents.
+        </p>
+      </h3>
+
+      <h2><li>blockquote</li></h2>
+
+      <h3>
+        <p>Indents an extended section quoted from an external source.</p>
+      </h3>
+
+      <h2><li>wbr</li></h2>
+
+      <h3><p>Indicates a safe word-break point for lengthy strings</p></h3>
+    </ul>
+  </body>
+</html>

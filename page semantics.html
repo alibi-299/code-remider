@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+  <head>
+    <title>page semantics</title>
+    <style>
+      body {
+        background-color: #008080;
+      }
+
+      .header-container {
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .header-container h1 {
+        margin: 0;
+      }
+
+      .button {
+        background-color: #25ad45; /* green default */
+        display: inline-block;
+        padding: 10px 24px;
+        border: none;
+        border-radius: 10px;
+        margin: 0;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 0 #1e6f2f;
+        transition:
+          transform 0.15s ease,
+          box-shadow 0.15s ease,
+          background-color 0.15s ease;
+        color: white;
+      }
+      .button:hover {
+        background-color: #c62828; /* red on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 #8b1a1a;
+      }
+      .button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 0 #8b1a1a;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <a href="html code.html" class="button">back</a>
+
+      <h1>page semantics</h1>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <ul style="color: #ffc000">
+      <h2><li>header</li></h2>
+
+      <h3>
+        <p>Represents introductory content or a site-wide navigation bar.</p>
+      </h3>
+
+      <h2><li>nav</li></h2>
+
+      <h3><p>Groups structural sets of navigation hyperlinks.</p></h3>
+
+      <h2><li>main</li></h2>
+
+      <h3>
+        <p>
+          Isolates the singular, dominant content block of the page document.
+        </p>
+      </h3>
+
+      <h2><li>section</li></h2>
+
+      <h3>
+        <p>
+          Groups standalone, generically relevant blocks of thematic content.
+        </p>
+      </h3>
+
+      <h2><li>article</li></h2>
+
+      <h3>
+        <p>
+          Encloses self-contained compositions intended to be independently
+          re-distributable.
+        </p>
+      </h3>
+
+      <h2><li>aside</li></h2>
+
+      <h3>
+        <p>
+          Marks off-topic text blocks or sidebars contextually tied to
+          surrounding parts.
+        </p>
+      </h3>
+
+      <h2><li>footer</li></h2>
+
+      <h3>
+        <p>
+          Demarcates trailing data blocks like copyright text or contact
+          elements.
+        </p>
+      </h3>
+
+      <h2><li>address</li></h2>
+
+      <h3>
+        <p>
+          Contains semantic contact markup details for people or physical
+          organizations.
+        </p>
+      </h3>
+
+      <h2><li>h1</li></h2>
+
+      <h3><p>Defines the highest level main document heading.</p></h3>
+
+      <h2><li>h2</li></h2>
+
+      <h3><p>Defines secondary standard section subheadings.</p></h3>
+
+      <h2><li>h3</li></h2>
+
+      <h3>
+        <p>Formats third-level subheadings embedded inside content fields.</p>
+      </h3>
+
+      <h2><li>h4</li></h2>
+      h2>
+
+      <h3><p>Defines minor fourth-level document section headers.</p></h3>
+
+      <h2><li>h5</li></h2>
+
+      <h3><p>Generates deep fifth-level editorial item headings.</p></h3>
+
+      <h2><li>h6</li></h2>
+
+      <h3>
+        <p>Represents the deepest, smallest native semantic heading tier.</p>
+      </h3>
+
+      <h2><li>hgroup</li></h2>
+
+      <h3><p>Groups a heading element with accompanying subheadings.</p></h3>
+    </ul>
+  </body>
+</html>

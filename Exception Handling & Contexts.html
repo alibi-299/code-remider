@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Exception Handling & Contexts</title>
+    <style>
+      body {
+        background-color: aqua;
+      }
+      .header-container {
+        position: relative;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .header-container h1 {
+        margin: 0;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        max-width: 360px;
+        width: auto;
+        margin: 0;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        color: #ffffff;
+        background-color: #25ad45;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        text-decoration: none;
+        box-shadow: 0 4px 0 #1e6f2f;
+        transition:
+          transform 0.16s ease,
+          box-shadow 0.16s ease,
+          background-color 0.12s ease;
+      }
+      .button:hover {
+        background-color: #1e8b2f; /* darker green on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 0 #165a22;
+      }
+      .button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 0 #14561a;
+      }
+
+      .button:focus {
+        outline: 3px solid rgba(37, 173, 69, 0.18);
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header-container">
+      <a class="button" href="pythoncode.html">back</a>
+      <h1>Exception Handling & Contexts</h1>
+    </div>
+
+    <ul>
+      <br />
+      <h2>try</h2>
+      <h3>Used to define a block of code to be tested for exceptions.</h3>
+
+      <h2>except</h2>
+      <h3>
+        Used to define a block of code to be executed if an exception of a
+        specific type occurs.
+      </h3>
+
+      <h2>finally</h2>
+      <h3>
+        Used to define a block of code that will be executed regardless of
+        whether an exception occurred.
+      </h3>
+
+      <h2>raise</h2>
+      <h3>Used to raise an exception manually.</h3>
+
+      <h2>with</h2>
+      <h3>
+        Used to wrap the execution of a block of code within methods defined by
+        a context manager.
+      </h3>
+
+      <h2>assert</h2>
+      <h3>
+        Used to test if a condition is true. If the condition is false, an
+        AssertionError is raised.
+      </h3>
+    </ul>
+  </body>
+</html>
