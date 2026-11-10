@@ -35,7 +35,6 @@ Then open:
 ```text
 http://localhost:8000/start page.html
 ```
-
 You can also use VS Code's Live Server extension for quick local preview.
 
 ## Notes
